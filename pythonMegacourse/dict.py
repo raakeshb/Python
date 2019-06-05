@@ -1,7 +1,7 @@
 import json
 from difflib import get_close_matches
 a=input()
-b=json.load(open("data.json"))
+b=json.load(open("dictdata.json"))
 def dict(a):
     if a.lower() in b:
        return(b[a.lower()])
